@@ -40,4 +40,35 @@ input {
 input:focus {
   border-color: #2980b9;
   outline: none;
-  box-shadow: 0 0 5px rgba(41,
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+button {
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.result {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.category {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #7f8c8d;
+}
